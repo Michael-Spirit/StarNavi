@@ -1,9 +1,13 @@
-1. create python env and install requirements from requirements.txt
+-  create python env and install requirements from requirements.txt
 
-2. go to NuxtNavi and see README.md there. Run
+-  go to NuxtNavi and see README.md there. Run
 
-3. Run backend part with `./manage runserver 8000`
+-  Create PostgreSQL db with credentials described in settings
 
-4. Run frontend part with `yarn dev` or `npm run dev`
+-  Run backend part with `./manage runserver 8000`
 
-5. open http://localhost:3000/
+-  For clearbit add clearbit_key to local_settings.py
+
+-  Run frontend part with `yarn dev` or `npm run dev`
+
+-  open http://localhost:3000/

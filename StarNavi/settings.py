@@ -152,8 +152,6 @@ LANGUAGE_CODE = 'en-us'
 
 REST_USE_JWT = True
 
-CLEARBIT_KEY = 'sk_11df5e32e7f953d02e89cb4b55ba756f'
-
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
@@ -172,3 +170,10 @@ SITE_ID = 1
 STATIC_URL = '/static/'
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+CLEARBIT_KEY = ''
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass

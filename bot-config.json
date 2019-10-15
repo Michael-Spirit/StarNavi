@@ -1,6 +1,5 @@
 {
   "number_of_users": 5,
   "max_posts_per_user": 2,
-  "max_votes_per_user": 20,
-  "easter_egg": 1
+  "max_votes_per_user": 20
 }
