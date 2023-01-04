@@ -21,7 +21,7 @@
     "js-cookie": "^2.2.0",
     "lodash.assign": "^4.2.0",
     "lodash.merge": "^4.6.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "nuxt-i18n": "^3.3.0",
     "nuxt-vuex-localstorage": "^1.2.6",
     "vee-validate": "^2.1.0-beta.6",
